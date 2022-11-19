@@ -1,0 +1,30 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <title> Sign-Up Page </title>  
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='main.css')}}">
+</head>    
+<body>    
+    <center> <h1>Sign-Up Page</h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Name : </label>   
+            <input type="text" placeholder="Enter Username" name="name" required>  
+            <label>Date Of Birth : </label>   
+            <input type="number" placeholder="DD/MM/YYYY" name="dob" required>
+            <label>Phone No : </label>   
+            <input type="number" placeholder="Enter Phone No" name="Phone" required>
+            <label>Email ID : </label>   
+            <input type="mail" placeholder="Enter Email ID" name="mail" required>
+            <label>Create Password : </label>   
+            <input type="password" name="password" required>
+            <label>Confirm Password : </label>   
+            <input type="password" name="password" required>
+            <div id="log">  
+              <button type="submit"><h3>Register</h3></button><br>
+            </div>
+        </div>   
+    </form>     
+</body>     
+</html>  
